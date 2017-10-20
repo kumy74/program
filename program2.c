@@ -8,7 +8,7 @@ int dodaj(int a, int b) { return a + b;}
 int main()
 {
 		int a = 2, b = 5; /*deklaracja wraz z inicjalizacja */ 
-		char wybor = '*';
+		char wybor = '+';
 /* if -( wyrazenie){ blok jesli wyrazenie prawdziwe} else {blok jesli wyrazenie fałszywe};   */
 		if(wybor =='*'){; /* == to operator ktory sprawdza czy rowne badz rozne */
 		printf("wynik mnozenia: %i\n", mnoz(a,b));
